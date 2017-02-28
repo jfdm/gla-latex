@@ -1,0 +1,49 @@
+#+TITLE: gla-socs-latex: A Guide To.
+
+* Overview
+
+A *unofficial* LaTeX project for use within the University of Glasgow, and
+especially within the School of Computing Science.
+
+The project is a port-in-progress of my =sta-latex= package.
+
+The files here are provided under the LaTeX Project Public License
+v1.3c. Currently the following files are available:
+
++ gla-colours.sty :: The university colours.
++ gla-tikz.sty :: Useful things for tikz.
++ glabs.sty :: A beamer styling package that provides default themes
+               and other goodness for producing both lectures and
+               conference presentations.
++ glabsmemoir.sty :: Beamer article notes styling for memoir.
+
+The classes have been designed to adhere closely as possible to the
+University's corporate guidelines, and be used with a
+vanila LaTeX install.
+
++ Note :: This project is under perpetual development, and so mistakes
+          will be made. Any problems please submit an issue with
+          a *MINIMAL FAILING EXAMPLE* to the issue tracker.
+
++ Note ::  This project is not officially affiliated with the
+           University nor the School.
+
++ Note :: Logos from the University will not be provided.
+
+Pull requests will be welcomed, though I do not guarantee that they
+will be accepted. Any ideas for features/improvements to the existing
+packages, or ideas for new classes/packages please use githubs issue
+tracker.
+
+The *examples* folder contains some example classes, and shows how I
+intend the packages to be used.
+
+* Installation
+
+1. Add a folder =sta-latex= under =texmf/tex/latex/= within your
+local =texmf= tree.
+ + *Linux* :  it is =~=
+ + *Mac OS X* : it is in =~/Library=
+ + *Windows* : no idea/do not care
+2. Copy the files into the directory.
+3. Run =texhash= n.b. you may have to do this under root.
