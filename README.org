@@ -1,4 +1,4 @@
-#+TITLE: gla-socs-latex: A Guide To.
+#+TITLE: gla-latex: A Guide To.
 
 * Overview
 
@@ -12,6 +12,9 @@ v1.3c. Currently the following files are available:
 
 + gla-colours.sty :: The university colours.
 + gla-tikz.sty :: Useful things for tikz.
++ gla-letter.cls :: An overlay of the memoir class, with helper code
+                    and some preloaded packages, designed for writing
+                    formal letters.
 + glabs.sty :: A beamer styling package that provides default themes
                and other goodness for producing both lectures and
                conference presentations.
